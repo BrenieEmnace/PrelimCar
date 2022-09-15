@@ -10,7 +10,7 @@
             </div>
             <table class="table">
                 <tr>
-                    <th style="border-right: 1px solid rgba(118, 116, 116, 0.67)">
+                    <th >
                         Car Name
                     </th>
                     <td>
@@ -18,7 +18,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th style="border-right: 1px solid rgba(118, 116, 116, 0.67)">
+                    <th >
                         Car Brand
                     </th>
                     <td>
@@ -26,11 +26,11 @@
                     </td>
                 </tr>
                 <tr>
-                    <th style="border-right: 1px solid rgba(118, 116, 116, 0.67)">
+                    <th >
                         Color
                     </th>
                     <td>
-                        {{ $this->car->collator_asort }}
+                        {{ $this->car->color }}
                     </td>
                 </tr>
             </table>

@@ -15,7 +15,5 @@
 </nav>
 
 <style>
-    .navbar-nav {
-        margin-left: 373px;
-    }
+ 
 </style>
