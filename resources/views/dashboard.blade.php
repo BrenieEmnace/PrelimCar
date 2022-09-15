@@ -12,9 +12,15 @@
                 <h1 class="text-center">Cars</h1>
             </div>
             <div class="card-body shadow">
-            <img class="offset-sm-1" src="images/cover.jpg" alt="cover">
+            <img class="offset-sm-1" src="images/cover1.jpg" alt="cover">
             </div>
         </div>
     </div>
 
 @endsection
+
+<style>
+    img {
+        width: 85%;
+    }
+</style>

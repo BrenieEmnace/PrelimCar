@@ -3,7 +3,7 @@
     <h5 class="p-2">Cars App</h5>
     <ul class="navbar-nav">
         <li class="nav-item active">
-          <a style="border-right: 1px rgba(89, 89, 89, 0.356) solid;" class="nav-link text-dark" href="{{ '/' }}">Dashboard</a>
+          <a class="nav-link text-dark" href="{{ '/' }}">Dashboard</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-dark" href="{{ '/car' }}">Cars</a>
@@ -15,5 +15,7 @@
 </nav>
 
 <style>
- 
+  a{
+    margin-left: 20px;
+  }
 </style>
