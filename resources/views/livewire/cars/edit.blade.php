@@ -19,9 +19,9 @@
                     @enderror
                 </div>
                 <div class="form-floating mb-3">
-                    <input type="text" class="form-control" wire:model.debounce.500ms="price">
+                    <input type="text" class="form-control" price="price">
                     <label for="price">Price</label>
-                    @error('email')
+                    @error('price')
                         <p class="text-danger">{{ $message }}</p>
                     @enderror
                 </div>
@@ -37,7 +37,7 @@
                         <option value="pink">Pink</option>
                     </select>
                     <label for="color">Color</label>
-                    @error('sim_card')
+                    @error('color')
                         <p class="text-danger">{{ $message }}</p>
                     @enderror
                 </div>
